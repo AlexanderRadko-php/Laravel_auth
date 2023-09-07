@@ -1,13 +1,12 @@
 @extends('layouts.auth-master')
 
 @section('content')
-    <div class="form_block col-6">
+    <div class="form_block col-6 pt-5">
     <form method="post" action="{{ route('register.perform') }}">
 
         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-{{--        <img class="mb-4" src="{!! url('images/bootstrap-logo.svg') !!}" alt="" width="72" height="57">--}}
 
-{{--        <h1 class="h3 mb-3 fw-normal">Зарегистрироваться</h1>--}}
+        <h1 class="h3 mb-3 fw-normal">Заполните форму регистрации</h1>
 
         <div class="form-group form-floating mb-3">
             <input type="email" class="form-control" name="email" value="{{ old('email') }}" placeholder="name@example.com" required="required" autofocus>

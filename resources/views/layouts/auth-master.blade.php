@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.87.0">
-    <title>Signin Template · Bootstrap v5.1</title>
+    <title>Вход в систему</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{!! url('assets/bootstrap/css/bootstrap.min.css') !!}" rel="stylesheet">
@@ -34,7 +34,7 @@
 </head>
 <body class="text-center">
 
-<main class="form-signin col-12 d-flex align-items-center justify-content-center">
+<main class="mt-4 form-signin col-12 d-flex align-items-center justify-content-center">
 
     @yield('content')
 
