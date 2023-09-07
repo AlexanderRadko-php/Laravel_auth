@@ -5,7 +5,7 @@
         @auth
             <h1 class="lead">Вы успешно войши в систему</h1>
             @include('auth.partials.copy')
-            <a class="btn btn-secondary mt-4" href="https://github.com/AlexanderRadko-php/Laravel" role="button">Посмотреть код проекта на Github</a>
+            <a class="btn btn-secondary mt-4" href="https://github.com/AlexanderRadko-php/Laravel_auth" role="button">Посмотреть код проекта на Github</a>
         @endauth
 
         @guest
